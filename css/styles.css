@@ -267,6 +267,7 @@ ul {
 .formats-container {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
 .formats-list {
@@ -316,6 +317,7 @@ ul {
     width: 44px;
     height: 44px;
     padding: 0;
+    flex-shrink: 0;
     fill: var(--color-primary-dark);
     border-radius: 50%;
     background-color: transparent;

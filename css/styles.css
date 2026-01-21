@@ -252,16 +252,25 @@ ul {
 
 
 .chefs-title {
+    position: relative;
     margin: 0 auto 80px;
-    max-width: 520px;
 }
 
 .chefs-title::before,
 .chefs-title::after {
-    display: block;
+    position: absolute;
+    bottom: 24px;
     width: 352px;
     border: 2px solid var(--color-brand-light);
     content: '';
+}
+
+.chefs-title::before {
+    left: 0;
+}
+
+.chefs-title::after {
+    right: 0;
 }
 
 .chefs-list {

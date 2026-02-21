@@ -5,16 +5,13 @@
     background-position: center top;
     background-size: cover ;
 
-}
-.hero-title {
-    margin-bottom: 0;
-    font-family: Poppins, sans-serif;
-    font-weight: 900;
-    text-align: center;
-    font-size: 128px;
-    color: var(--color-primary-light)
+    &__title {
+        margin-bottom: 0;
+        font-family: Poppins, sans-serif;
+        font-weight: 900;
+        text-align: center;
+        font-size: 128px;
+        color: var(--color-primary-light)
+    }
 }
 
-.hero-title .accent {
-    color: var(--color-brand-normal);
-}
